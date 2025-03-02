@@ -11,7 +11,7 @@ int main() {
 
     size_t pos = S.find(S0);
 
-    while (pos != string::npos) {
+    while (pos < S.length()) {
         count++;
         pos = S.find(S0, pos + S0.length());
     }
