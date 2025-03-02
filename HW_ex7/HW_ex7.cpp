@@ -20,4 +20,4 @@ int main() {
     cout << "Количество слов hello: " << count << endl;
 
     return 0;
-}
+} 
